@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E6D3FA;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+h1{
+font-size: 50px;
+}
+
+#content{
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+div.eight-ball{
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: 5px 10px 20px rgb(78, 77, 77);
+
+}
+
+
+div.answer{
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    margin: 25% auto;
+}
+
+
+p#eight{
+    font-size: 6em;
+    margin: 20% auto;
+    color: black;
+}
+
+
+p#answer{
+    padding: 23px;
+    color: darkorchid;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+#question{
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+    font-size: 22px;
+}
+
+
+#info{
+    font-size: 22px;
+}
+
+
+
+.inputfield{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    position: absolute;
+    top: 65vh;
+    padding: 15px 50px 15px 15px;
+    font-size: 15px;
+    border-radius: 30px;
+    text-align: left;
+    border: 0;
+
+}
+
+input:focus{
+    outline: 2px solid purple;
+}
+
+button{
+    position: absolute;
+    top: 75vh;
+    padding: 10px 50px;
+    border-radius: 30px;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid rgb(18, 0, 31);
+}
+
+button:hover{
+    background-color: rgb(230, 126, 240);
+}
+
+button:active{
+    background-color: purple;
+}
+
+
+
+
